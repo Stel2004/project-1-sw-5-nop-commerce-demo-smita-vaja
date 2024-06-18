@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicking on login link[[ChromeDriver: chrome on windows (df24c3503dd4e8e1518b0530e3f7e6d2)] -> link text: Log in]]]>
+    </line>
+    <line>
+      <![CDATA[Get welcome text[[ChromeDriver: chrome on windows (df24c3503dd4e8e1518b0530e3f7e6d2)] -> xpath: //h1[contains(text(),'Welcome, Please Sign In!')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on login link[[ChromeDriver: chrome on windows (e87d26634c52d945b24270f3752078b7)] -> link text: Log in]]]>
+    </line>
+    <line>
+      <![CDATA[Enter EmailId [[ChromeDriver: chrome on windows (e87d26634c52d945b24270f3752078b7)] -> id: Email]]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password [[ChromeDriver: chrome on windows (e87d26634c52d945b24270f3752078b7)] -> name: Password]]]>
+    </line>
+    <line>
+      <![CDATA[Click on loginButton[[ChromeDriver: chrome on windows (e87d26634c52d945b24270f3752078b7)] -> xpath: //button[contains(text(),'Log in')]]]]>
+    </line>
+    <line>
+      <![CDATA[Get logout link[[ChromeDriver: chrome on windows (e87d26634c52d945b24270f3752078b7)] -> link text: Log out]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on login link[[ChromeDriver: chrome on windows (3bdc76afcfd17db2b70411e4ebb83d1e)] -> link text: Log in]]]>
+    </line>
+    <line>
+      <![CDATA[Enter EmailId [[ChromeDriver: chrome on windows (3bdc76afcfd17db2b70411e4ebb83d1e)] -> id: Email]]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password [[ChromeDriver: chrome on windows (3bdc76afcfd17db2b70411e4ebb83d1e)] -> name: Password]]]>
+    </line>
+    <line>
+      <![CDATA[Click on loginButton[[ChromeDriver: chrome on windows (3bdc76afcfd17db2b70411e4ebb83d1e)] -> xpath: //button[contains(text(),'Log in')]]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on logout link[[ChromeDriver: chrome on windows (3bdc76afcfd17db2b70411e4ebb83d1e)] -> link text: Log out]]]>
+    </line>
+    <line>
+      <![CDATA[Get login link[[ChromeDriver: chrome on windows (3bdc76afcfd17db2b70411e4ebb83d1e)] -> link text: Log in]]]>
+    </line>
+    <line>
+      <![CDATA[Clicking on login link[[ChromeDriver: chrome on windows (399b66d95268a9f5114412b2a58d77ff)] -> link text: Log in]]]>
+    </line>
+    <line>
+      <![CDATA[Enter EmailId [[ChromeDriver: chrome on windows (399b66d95268a9f5114412b2a58d77ff)] -> id: Email]]]>
+    </line>
+    <line>
+      <![CDATA[Enter Password [[ChromeDriver: chrome on windows (399b66d95268a9f5114412b2a58d77ff)] -> name: Password]]]>
+    </line>
+    <line>
+      <![CDATA[Click on loginButton[[ChromeDriver: chrome on windows (399b66d95268a9f5114412b2a58d77ff)] -> xpath: //button[contains(text(),'Log in')]]]]>
+    </line>
+    <line>
+      <![CDATA[Get errorMessage[[ChromeDriver: chrome on windows (399b66d95268a9f5114412b2a58d77ff)] -> xpath: //div[@class='message-error validation-summary-errors']]]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-06-17T20:10:26 AEST" name="Sanity Suite" finished-at="2024-06-17T20:10:44 AEST" duration-ms="18294">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.userShouldNavigateToLoginPageSuccessFully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" name="userShouldNavigateToLoginPageSuccessFully" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyThatUserShouldLogInSuccessFullyWithValidCredentials()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" name="verifyThatUserShouldLogInSuccessFullyWithValidCredentials" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyThatUserShouldLogOutSuccessFully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" name="verifyThatUserShouldLogOutSuccessFully" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyTheErrorMessageWithInValidCredentials()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" name="verifyTheErrorMessageWithInValidCredentials" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="LoginPageTest.userShouldNavigateToLoginPageSuccessFully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" name="userShouldNavigateToLoginPageSuccessFully" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyTheErrorMessageWithInValidCredentials()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" name="verifyTheErrorMessageWithInValidCredentials" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+      </group> <!-- sanity -->
+      <group name="smock">
+        <method signature="LoginPageTest.userShouldNavigateToLoginPageSuccessFully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" name="userShouldNavigateToLoginPageSuccessFully" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyThatUserShouldLogInSuccessFullyWithValidCredentials()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" name="verifyThatUserShouldLogInSuccessFullyWithValidCredentials" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyTheErrorMessageWithInValidCredentials()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" name="verifyTheErrorMessageWithInValidCredentials" class="com.nopcommerce.demo.testsuite.LoginPageTest"/>
+      </group> <!-- smock -->
+    </groups>
+    <test started-at="2024-06-17T20:10:26 AEST" name="Login Test" finished-at="2024-06-17T20:10:44 AEST" duration-ms="18294">
+      <class name="com.nopcommerce.demo.testsuite.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" started-at="2024-06-17T20:10:26 AEST" name="setUp" finished-at="2024-06-17T20:10:29 AEST" duration-ms="3061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" started-at="2024-06-17T20:10:29 AEST" name="inIt" finished-at="2024-06-17T20:10:29 AEST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="userShouldNavigateToLoginPageSuccessFully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" started-at="2024-06-17T20:10:29 AEST" name="userShouldNavigateToLoginPageSuccessFully" finished-at="2024-06-17T20:10:30 AEST" duration-ms="1055" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on login link[[ChromeDriver: chrome on windows (df24c3503dd4e8e1518b0530e3f7e6d2)] -> link text: Log in]]]>
+            </line>
+            <line>
+              <![CDATA[Get welcome text[[ChromeDriver: chrome on windows (df24c3503dd4e8e1518b0530e3f7e6d2)] -> xpath: //h1[contains(text(),'Welcome, Please Sign In!')]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToLoginPageSuccessFully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" started-at="2024-06-17T20:10:30 AEST" name="tearDown" finished-at="2024-06-17T20:10:30 AEST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" started-at="2024-06-17T20:10:30 AEST" name="setUp" finished-at="2024-06-17T20:10:33 AEST" duration-ms="2438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" started-at="2024-06-17T20:10:33 AEST" name="inIt" finished-at="2024-06-17T20:10:33 AEST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyThatUserShouldLogInSuccessFullyWithValidCredentials()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" started-at="2024-06-17T20:10:33 AEST" name="verifyThatUserShouldLogInSuccessFullyWithValidCredentials" finished-at="2024-06-17T20:10:34 AEST" duration-ms="1606" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on login link[[ChromeDriver: chrome on windows (e87d26634c52d945b24270f3752078b7)] -> link text: Log in]]]>
+            </line>
+            <line>
+              <![CDATA[Enter EmailId [[ChromeDriver: chrome on windows (e87d26634c52d945b24270f3752078b7)] -> id: Email]]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password [[ChromeDriver: chrome on windows (e87d26634c52d945b24270f3752078b7)] -> name: Password]]]>
+            </line>
+            <line>
+              <![CDATA[Click on loginButton[[ChromeDriver: chrome on windows (e87d26634c52d945b24270f3752078b7)] -> xpath: //button[contains(text(),'Log in')]]]]>
+            </line>
+            <line>
+              <![CDATA[Get logout link[[ChromeDriver: chrome on windows (e87d26634c52d945b24270f3752078b7)] -> link text: Log out]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldLogInSuccessFullyWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" started-at="2024-06-17T20:10:34 AEST" name="tearDown" finished-at="2024-06-17T20:10:35 AEST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" started-at="2024-06-17T20:10:35 AEST" name="setUp" finished-at="2024-06-17T20:10:37 AEST" duration-ms="2421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" started-at="2024-06-17T20:10:37 AEST" name="inIt" finished-at="2024-06-17T20:10:37 AEST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyThatUserShouldLogOutSuccessFully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" started-at="2024-06-17T20:10:37 AEST" name="verifyThatUserShouldLogOutSuccessFully" finished-at="2024-06-17T20:10:39 AEST" duration-ms="2359" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on login link[[ChromeDriver: chrome on windows (3bdc76afcfd17db2b70411e4ebb83d1e)] -> link text: Log in]]]>
+            </line>
+            <line>
+              <![CDATA[Enter EmailId [[ChromeDriver: chrome on windows (3bdc76afcfd17db2b70411e4ebb83d1e)] -> id: Email]]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password [[ChromeDriver: chrome on windows (3bdc76afcfd17db2b70411e4ebb83d1e)] -> name: Password]]]>
+            </line>
+            <line>
+              <![CDATA[Click on loginButton[[ChromeDriver: chrome on windows (3bdc76afcfd17db2b70411e4ebb83d1e)] -> xpath: //button[contains(text(),'Log in')]]]]>
+            </line>
+            <line>
+              <![CDATA[Clicking on logout link[[ChromeDriver: chrome on windows (3bdc76afcfd17db2b70411e4ebb83d1e)] -> link text: Log out]]]>
+            </line>
+            <line>
+              <![CDATA[Get login link[[ChromeDriver: chrome on windows (3bdc76afcfd17db2b70411e4ebb83d1e)] -> link text: Log in]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldLogOutSuccessFully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" started-at="2024-06-17T20:10:39 AEST" name="tearDown" finished-at="2024-06-17T20:10:40 AEST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" started-at="2024-06-17T20:10:40 AEST" name="setUp" finished-at="2024-06-17T20:10:42 AEST" duration-ms="2708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" started-at="2024-06-17T20:10:42 AEST" name="inIt" finished-at="2024-06-17T20:10:42 AEST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyTheErrorMessageWithInValidCredentials()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" started-at="2024-06-17T20:10:42 AEST" name="verifyTheErrorMessageWithInValidCredentials" finished-at="2024-06-17T20:10:44 AEST" duration-ms="1399" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on login link[[ChromeDriver: chrome on windows (399b66d95268a9f5114412b2a58d77ff)] -> link text: Log in]]]>
+            </line>
+            <line>
+              <![CDATA[Enter EmailId [[ChromeDriver: chrome on windows (399b66d95268a9f5114412b2a58d77ff)] -> id: Email]]]>
+            </line>
+            <line>
+              <![CDATA[Enter Password [[ChromeDriver: chrome on windows (399b66d95268a9f5114412b2a58d77ff)] -> name: Password]]]>
+            </line>
+            <line>
+              <![CDATA[Click on loginButton[[ChromeDriver: chrome on windows (399b66d95268a9f5114412b2a58d77ff)] -> xpath: //button[contains(text(),'Log in')]]]]>
+            </line>
+            <line>
+              <![CDATA[Get errorMessage[[ChromeDriver: chrome on windows (399b66d95268a9f5114412b2a58d77ff)] -> xpath: //div[@class='message-error validation-summary-errors']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheErrorMessageWithInValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginPageTest@6c64cb25]" started-at="2024-06-17T20:10:44 AEST" name="tearDown" finished-at="2024-06-17T20:10:44 AEST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.LoginPageTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Sanity Suite -->
+</testng-results>
